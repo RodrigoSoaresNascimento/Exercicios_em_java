@@ -14,17 +14,29 @@ public class combustivel {
                 System.out.println("Informe um codigo (1, 2, 3) ou 4 para parar: ");
                 produto = entrada.nextInt();
                 alcool++;
+                System.out.println("Alcool:" + alcool);
+                System.out.println("Gasolina:" + gasolina);
+                System.out.println("Diesel:" + diesel);
             }else if(produto == 2){
                 System.out.println("Informe um codigo (1, 2, 3) ou 4 para parar: ");
                 produto = entrada.nextInt();
                 gasolina ++;
+                System.out.println("Alcool:" + alcool);
+                System.out.println("Gasolina:" + gasolina);
+                System.out.println("Diesel:" + diesel);
             }else if(produto == 3){
                 System.out.println("Informe um codigo (1, 2, 3) ou 4 para parar: ");
                 produto = entrada.nextInt();
                 diesel ++;
+                System.out.println("Alcool:" + alcool);
+                System.out.println("Gasolina:" + gasolina);
+                System.out.println("Diesel:" + diesel);
             }else{
                 System.out.println("Informe um codigo (1, 2, 3) ou 4 para parar: ");
                 produto = entrada.nextInt();
+                System.out.println("Alcool:" + alcool);
+                System.out.println("Gasolina:" + gasolina);
+                System.out.println("Diesel:" + diesel);
             }
         }
         System.out.println("Muito obrigado");
